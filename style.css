@@ -1,0 +1,213 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 238, 237);
+}
+h3 {
+  padding: 20px;
+}
+p {
+
+}
+
+.header{
+ width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.name{
+  /* text-align: center;  */
+  width: 45%;
+  margin:auto;
+}
+
+.contact{
+  width:20%;
+  margin:auto;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+
+.pic img {
+  border: 2px solid ;
+  border-radius: 50%;
+  border-color: black;
+  border-style: dotted;
+  padding: 5px;
+   /* float: left; */
+}
+
+.pic {
+  /* float: left; */
+  margin:auto;
+  width: 30%;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: lavenderblush;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: gray;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color: pink;
+  color: black;
+}
+
+.column {
+  float: center; 
+  padding: 20px;
+  width: 100%;
+}
+
+.projects-row {
+  float: center; 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+*{
+  box-sizing: border-box;
+}
+
+.project-tile{
+  text-align: center;
+  color: black;
+  outline-style: outset;
+  background-color: lightblue;
+  outline-width: 7px;
+  width: 30%;
+  margin: auto;
+}
+.project-tile a{
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.project-tile:hover{
+  background-color: lightpink;
+  outline-style: outset;
+  color: white;
+  outline-width: 10px;
+}
+
+.ec-tile{
+ text-align: center; 
+  border: 1px solid;
+  padding: 5px;
+  border-color: black;
+  border-radius: 20px;
+  background-color: lavenderblush;
+  margin: auto;
+  width: 20%;
+}
+
+.ec-row{
+  float: center; 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+*{
+  box-sizing: border-box;
+}
+
+.ec-tile:hover{
+  background-color: pink;
+  padding: 10px;
+}
+.v-tile{
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  border-color: black;
+  border-radius: 20px;
+  background-color: lavenderblush;
+  margin: auto;
+  width: 20%;
+}
+.v-row{
+  float: center; 
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+*{
+  box-sizing: border-box;
+}
+.v-tile:hover{
+  background-color: pink;
+  padding: 15px;
+}
+
+.skill-tile{
+  text-align: center;
+  border: 1px solid;
+  padding: 5px;
+  border-color: black;
+  border-radius: 20px;
+  background-color: lavenderblush;
+  margin: auto;
+  width: 10%;
+}
+
+.skills-row{
+  float: center; 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+*{
+  box-sizing: border-box;
+}
+
+.skill-tile:hover{
+  background-color: pink;
+  padding: 10px;
+}
+
+#bio-header{
+  background-color: lavender;
+  padding: 15px;
+}
+#volunteering{
+  background-color: lavender;
+  padding: 15px;
+}
+#extracurriculars{
+  background-color: lavender;
+  padding: 15px;
+}
+#projects{
+  background-color: lavender;
+  padding: 15px;
+}
+#education{
+  background-color: lavender;
+  padding: 15px;
+}
+#skills{
+  background-color: lavender;
+  padding: 15px;
+}
+
+/* @media screen and (max-width: 900px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+} */
+
+
